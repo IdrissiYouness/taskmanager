@@ -11,7 +11,7 @@ services:
     restart: unless-stopped
 
   backend:
-    build: ./taskmanager
+    build: .
     container_name: backend
     ports:
       - "8080:8080"
